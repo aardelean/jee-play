@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jee-jsf:war exploded">
+    <output-path>$PROJECT_DIR$/jee-jsf/target/jee-jsf</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jee-jsf" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="jee-jsf/web/Web" />
+    </root>
+  </artifact>
+</component>

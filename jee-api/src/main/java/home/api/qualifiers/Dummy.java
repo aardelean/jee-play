@@ -1,0 +1,18 @@
+package home.api.qualifiers;
+
+import javax.inject.Qualifier;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.ElementType.METHOD;
+import static java.lang.annotation.ElementType.PARAMETER;
+import static java.lang.annotation.ElementType.TYPE;
+/**
+ * Created by alex on 6/27/2015.
+ */
+@Qualifier
+@Retention(RetentionPolicy.RUNTIME)
+@Target({TYPE, METHOD, FIELD, PARAMETER})
+public @interface Dummy {
+}

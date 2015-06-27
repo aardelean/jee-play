@@ -1,0 +1,3 @@
+Dependencies: org.jboss.as.messaging services,
+home: jee-jsf meta-inf
+

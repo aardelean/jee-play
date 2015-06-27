@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:composite="http://java.sun.com/jsf/composite"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:view>
+    <composite:interface>
+        <composite:attribute name="username" />
+        <composite:attribute name="password" />
+    </composite:interface>
+   <composite:implementation>
+       <h:form>
+        <h:inputText value="#{cc.attrs.username}"/>
+       <br/>
+        <h:inputText value="#{cc.attrs.password}"/>
+       <br/>
+        <h:commandButton action="welcome" value="register" />
+       </h:form>
+   </composite:implementation>
+
+</f:view>
+</html>

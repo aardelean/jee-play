@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jee-api/jee-api.iml" filepath="$PROJECT_DIR$/jee-api/jee-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jee-bundle/jee-bundle.iml" filepath="$PROJECT_DIR$/jee-bundle/jee-bundle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jee-ejb/jee-ejb.iml" filepath="$PROJECT_DIR$/jee-ejb/jee-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jee-jsf/jee-jsf.iml" filepath="$PROJECT_DIR$/jee-jsf/jee-jsf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jee-play.iml" filepath="$PROJECT_DIR$/jee-play.iml" />
+    </modules>
+  </component>
+</project>
+

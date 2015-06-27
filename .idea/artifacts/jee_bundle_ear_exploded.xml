@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="jee-bundle:ear exploded">
+    <output-path>$PROJECT_DIR$/jee-bundle/target/jee-bundle.ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jee-bundle/javaeeApplication/JavaEE" />
+      <element id="dir-copy" path="$PROJECT_DIR$/jee-bundle/src/main/application" />
+      <element id="directory" name="lib">
+        <element id="archive" name="jee-api-1.0-SNAPSHOT.jar">
+          <element id="module-output" name="jee-api" />
+        </element>
+      </element>
+      <element id="archive" name="jee-ejb.jar">
+        <element id="module-output" name="jee-ejb" />
+      </element>
+      <element id="archive" name="jee-jsf.war">
+        <element id="artifact" artifact-name="jee-jsf:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>
