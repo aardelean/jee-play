@@ -1,13 +1,19 @@
 package home.ejb;
 
 import home.api.User;
+import home.api.UsernameEvent;
 import home.api.interceptors.Log;
 import home.api.qualifiers.Random;
+import home.api.qualifiers.SetUsernameEvent;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 import javax.ejb.Stateful;
+import javax.enterprise.event.Observes;
 import javax.enterprise.inject.Instance;
 import javax.inject.Inject;
 import javax.interceptor.Interceptors;
+import javax.jms.*;
 
 /**
  * Created by alex on 6/27/2015.
